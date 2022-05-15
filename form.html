@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Форма</title>
+</head>
+
+<body>
+    <form style="width: 30%">
+        <fieldset>
+            <legend>Общая информация</legend>
+            <table>
+                <tr>
+                    <div>
+                        <td width="90"><label for="surname">Фамилия</label></td>
+                        <td width="90"><input id="surname" type="text" name="surname" placeholder="Иванов"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div>
+                        <td width="90"><label for="name">Имя</label></td>
+                        <td width="90"><input id="name" type="text" name="name" placeholder="Иван"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div>
+                        <td width="90"><label for="patronymic">Отчество</label></td>
+                        <td width="90"><input id="patronymic" type="text" name="patronymic" placeholder="Иванович"></td>
+                    </div>
+                </tr>
+                <tr>
+                    <div>
+                        <td width="90"><label for="email">email</label></td>
+                        <td width="90"><input id="email" type="email" name="email" placeholder="mail@mail.ru"></td>
+                    </div>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Пол</legend>
+            <table>
+                <tr>
+                    <td width="90"><input id="male" type="radio" name="male"><label for="male">М</label></td>
+                    <td width="90"><input id="female" type="radio" name="female"><label for="female">Ж</label></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Хобби</legend>
+            <table>
+                <tr>
+                    <td width="100"><input id="drawing" type="checkbox" name="drawing"><label
+                            for="drawing">Рисование</label></td>
+                    <td width="100"><input id="reading" type="checkbox" name="reading"><label
+                            for="reading">Чтение</label></td>
+                    <td width="100"><input id="knitting" type="checkbox" name="knitting"><label
+                            for="knitting">Вязание</label></td>
+                    <td width="100"><input id="cooking" type="checkbox" name="cooking"><label
+                            for="cooking">Кулинария</label></td>
+                </tr>
+            </table>
+        </fieldset>
+        <br>
+        <button type="submit">Отправить</button>
+        <button type="reset">Очистить</button>
+
+    </form>
+
+</body>
+
+</html>
